@@ -1,0 +1,85 @@
+.btn.cherry{
+	background-color: aqua !important;
+	color: black;
+	width: 80.89px;
+	height: 18px;
+}
+.btn-cherry:hover{
+	background-color: orangered;
+}
+.text-cherry{
+	color: orangered !important;
+}
+.text-corrousel{
+	color:orangered !important;
+	font-style: italic;
+	text-align: center;
+}
+#carrousel .carousel-inner{
+	max-height: 70vh; 
+	object-fit: cover;
+	
+}
+
+#footer{
+	background: linear-gradient(90deg,#1c3643,#273b47, 25%,#1e5372);
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	color: darkorange;
+}
+#footer a{
+	color: darkorange;
+}
+
+#nadvar img{
+	width: 50px;
+}
+
+#corrousel {
+	position: relative;
+}
+#corrousel h5{
+	text-align: center;
+	color:white
+}
+
+#speakers h3{
+	color: white;
+}
+
+#paquetes h3{
+	color: white;
+}
+
+
+#corrousel .overlay{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	color:white;
+	background-color: rgba(0,0,0,0.5);
+}
+#place-time {
+	background-color: #343a40;
+	color:orangered;
+	text-align: justify;
+}
+#place-time h2 {
+	text-align: justify;
+	color:aliceblue;
+}
+#place-time img{
+	max-width: 100%;
+	
+	
+}
+
+body{
+	background-color: #343a40; 
+}
+#formularios h2,h3{
+color: white;
+}
