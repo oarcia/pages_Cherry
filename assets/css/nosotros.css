@@ -73,9 +73,8 @@
 }
 #place-time {
 	/*background-color: #343a40;*/
-	color:snow;
+	color:blanchedalmond;
 	text-align: justify;
-	font-style:oblique;
 	background-color: rgba(0,0,0,0.5);
 	background-image: url(/assets/img/index/upgrade/gente-negocios-ciudad-trabajando-juntos_53876-42582.jpg)
 	/*background-color: rgba(0,0,0,0.5);*/
@@ -114,6 +113,15 @@
 	font-size: 50px;
 }
 
+#nosotros .lead{
+	text-align: justify;
+	color: black
+}
+
+#nosotros strong{
+	color: orangered;
+}
+
 paquetes h1{
 	color: aqua;
 }
@@ -147,7 +155,7 @@ paquetes h1{
 	color: darkorange;
 }
 
-#responsiva{
+#division {
 background-image: url(/assets/img/index/upgrade/emprede.jpg)	
 }
 
@@ -162,7 +170,7 @@ background-image: url(/assets/img/index/upgrade/emprede.jpg)
 
 
 body{
-	background-color:#343a40; 
+	background-color:grey; 
 }
 #formularios h2,h3{
 color: white;
@@ -174,46 +182,3 @@ color: white;
 #apps h1{
 	color: orangered;
 }
-
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-paquetes{
- background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
-  font-family: "Open Sans",  Impact;
-}
-.area{
-  text-align:center;
-  font-size:6.5em;
-  color:#fff;
-  letter-spacing: -7px;
-  font-weight:700;
-  text-transform:uppercase;
-  animation:blur 2s ease-out infinite;
-  text-shadow:0px 0px 5px #fff,
-      0px 0px 7px #ff0000;
-}
-
-@keyframes blur{
-  from{
-      text-shadow:0px 0px 10px #fff,
-      0px 0px 10px #fff, 
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px 		#efb810,
-      0px 0px 150px 	#efb810, 
-      0px 10px 100px 	#efb810, 
-      0px 10px 100px 	#efb810, 
-      0px 10px 100px 	#efb810, 
-      0px 10px 100px 	#efb810, 
-      0px -10px 100px 	#efb810, 
-      0px -10px 100px 	#efb810; 
-	  }
-}
-

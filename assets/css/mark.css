@@ -31,6 +31,9 @@
 #footer a{
 	color: darkorange;
 }
+#footer img{
+	width: 50px;
+}
 
 #nadvar img{
 	width: 50px;
@@ -44,17 +47,14 @@
 	color:white
 }
 
-#speakers h3{
-	color: white;
+#speakers h1{
+	color:gold;
 }
 
 #paquetes h3{
 	color: white;
 }
 
-#divisor {
-	background-color: chartreuse;
-}
 
 #corrousel .overlay{
 	position: absolute;
@@ -70,13 +70,18 @@
 	color:orangered;
 	text-align: justify;
 }
-#place-time h2 {
+#place-time .card-body{
+	background-color: #343a40;
+	color:orangered;
 	text-align: justify;
+}
+#place-time h2 {
+	text-align: center;
 	color:aliceblue;
 }
 #place-time img{
 	max-width: 100%;
-	
+	image-orientation: left;
 	
 }
 
@@ -85,4 +90,7 @@ body{
 }
 #formularios h2,h3{
 color: white;
+}
+#formularios p {
+	color: white;
 }

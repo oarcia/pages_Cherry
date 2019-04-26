@@ -16,7 +16,7 @@
 	text-align: center;
 }
 #carrousel .carousel-inner{
-	max-height: 90vh; 
+	max-height: 100vh; 
 	object-fit: cover;
 	
 }
@@ -31,6 +31,9 @@
 #footer a{
 	color: darkorange;
 }
+#footer img{
+	width: 50px;
+}
 
 #nadvar img{
 	width: 50px;
@@ -44,17 +47,18 @@
 	color:white
 }
 
-#speakers h3{
-	color: white;
+#speakers h1{
+	color:gold;
+}
+
+#ejemplos h1{
+	color: aqua;
 }
 
 #paquetes h3{
 	color: white;
 }
 
-#divisor {
-	background-color: chartreuse;
-}
 
 #corrousel .overlay{
 	position: absolute;
@@ -80,9 +84,13 @@
 	
 }
 
+
 body{
 	background-color: #343a40; 
 }
 #formularios h2,h3{
 color: white;
+}
+#formularios p {
+	color: white;
 }

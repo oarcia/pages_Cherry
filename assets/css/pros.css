@@ -31,6 +31,9 @@
 #footer a{
 	color: darkorange;
 }
+#footer img{
+	width: 50px;
+}
 
 #nadvar img{
 	width: 50px;
@@ -44,17 +47,14 @@
 	color:white
 }
 
-#speakers h3{
-	color: white;
+#speakers h1{
+	color:gold;
 }
 
 #paquetes h3{
 	color: white;
 }
 
-#divisor {
-	background-color: chartreuse;
-}
 
 #corrousel .overlay{
 	position: absolute;
@@ -65,18 +65,39 @@
 	color:white;
 	background-color: rgba(0,0,0,0.5);
 }
+.parrafo{
+	text-align: justify;
+	font-size: 20px;
+	color:white;
+	align-items: center;
+}
+.imagen{
+ 	max-height: 100vh; 
+	object-fit: cover;
+}
+#introduccion h1{
+	color: darkgoldenrod;
+	font-size: 30px;
+}
+#introduccion{
+	background-color: rgba(0,0,0,0.5);
+}
 #place-time {
 	background-color: #343a40;
 	color:orangered;
-	text-align: justify;
+	align-items: center;
 }
 #place-time h2 {
 	text-align: justify;
 	color:aliceblue;
 }
+#place-time h3 {
+	color: darkgoldenrod;
+	font-size: 40px;
+}
 #place-time img{
-	max-width: 100%;
-	
+	max-width: 50%;
+	align-items: center;
 	
 }
 
@@ -85,4 +106,13 @@ body{
 }
 #formularios h2,h3{
 color: white;
+}
+#formularios p {
+	color: white;
+}
+#place-time p{
+	color: white;
+	font-size: 10px;
+	justify-content: center;
+	text-align: justify
 }
